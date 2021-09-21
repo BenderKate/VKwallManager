@@ -2,7 +2,7 @@ package domain;
 
 public class RepostsInfo {
     private int repost;
-    private boolean reposted;
+    private int userReposted;
 
     public int getRepost() {
         return 0;
@@ -12,18 +12,12 @@ public class RepostsInfo {
         return 0;
     }
 
-    public boolean getReposted() {
-        if (reposted = true) {
-            return true;
-        }
-        else return false;
+    public int getUserReposted() {
+        return 0;
     }
 
-    public boolean setReposted() {
-        if (reposted = true) {
-            return true;
-        }
-        else return false;
+    public int setUserReposted() {
+        return 0;
     }
 
 }
